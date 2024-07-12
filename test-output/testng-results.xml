@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-09T01:02:37 EEST" name="Default suite" finished-at="2024-07-09T01:02:54 EEST" duration-ms="16653">
+    <groups>
+    </groups>
+    <test started-at="2024-07-09T01:02:37 EEST" name="Default test" finished-at="2024-07-09T01:02:54 EEST" duration-ms="16653">
+      <class name="tests.LoginPageTest">
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:tests.LoginPageTest@1349883]" started-at="2024-07-09T01:02:37 EEST" name="initializeBrowser" finished-at="2024-07-09T01:02:48 EEST" duration-ms="11014" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginPageTest@1349883]" started-at="2024-07-09T01:02:48 EEST" name="setup" finished-at="2024-07-09T01:02:48 EEST" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyEmptyCredentials()[pri:0, instance:tests.LoginPageTest@1349883]" started-at="2024-07-09T01:02:48 EEST" name="verifyEmptyCredentials" finished-at="2024-07-09T01:02:48 EEST" duration-ms="345" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at tests.LoginPageTest.verifyEmptyCredentials(LoginPageTest.java:48)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmptyCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginPageTest@1349883]" started-at="2024-07-09T01:02:48 EEST" name="tearDown" finished-at="2024-07-09T01:02:48 EEST" duration-ms="137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:tests.LoginPageTest@1349883]" started-at="2024-07-09T01:02:48 EEST" name="initializeBrowser" finished-at="2024-07-09T01:02:50 EEST" duration-ms="1381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginPageTest@1349883]" started-at="2024-07-09T01:02:50 EEST" name="setup" finished-at="2024-07-09T01:02:50 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyFieldsOnMainScreen()[pri:0, instance:tests.LoginPageTest@1349883]" started-at="2024-07-09T01:02:50 EEST" name="verifyFieldsOnMainScreen" finished-at="2024-07-09T01:02:50 EEST" duration-ms="63" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFieldsOnMainScreen -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginPageTest@1349883]" started-at="2024-07-09T01:02:50 EEST" name="tearDown" finished-at="2024-07-09T01:02:50 EEST" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:tests.LoginPageTest@1349883]" started-at="2024-07-09T01:02:50 EEST" name="initializeBrowser" finished-at="2024-07-09T01:02:51 EEST" duration-ms="1529" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method signature="verifyInvalidCredentials()[pri:0, instance:tests.LoginPageTest@1349883]" started-at="2024-07-09T01:02:51 EEST" name="verifyInvalidCredentials" finished-at="2024-07-09T01:02:52 EEST" duration-ms="249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidCredentials -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginPageTest@1349883]" started-at="2024-07-09T01:02:51 EEST" name="setup" finished-at="2024-07-09T01:02:51 EEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginPageTest@1349883]" started-at="2024-07-09T01:02:52 EEST" name="tearDown" finished-at="2024-07-09T01:02:52 EEST" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initializeBrowser()[pri:0, instance:tests.LoginPageTest@1349883]" started-at="2024-07-09T01:02:52 EEST" name="initializeBrowser" finished-at="2024-07-09T01:02:53 EEST" duration-ms="1323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginPageTest@1349883]" started-at="2024-07-09T01:02:53 EEST" name="setup" finished-at="2024-07-09T01:02:53 EEST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyValidCredentials()[pri:0, instance:tests.LoginPageTest@1349883]" started-at="2024-07-09T01:02:53 EEST" name="verifyValidCredentials" finished-at="2024-07-09T01:02:53 EEST" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginPageTest@1349883]" started-at="2024-07-09T01:02:53 EEST" name="tearDown" finished-at="2024-07-09T01:02:54 EEST" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
